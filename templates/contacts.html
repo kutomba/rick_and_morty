@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+
+    <form id="firstForm" action="" method="get">
+
+    <input name="a"> x <input name="b"><span class="form-result"></span>
+
+        <br>
+        <br>
+
+        <button type="button">ОТПРАВИТЬ</button>
+    </form>
+
+    <div class="area-box">
+         <h3>Вы довольны своей зарплатой?</h3>
+         <p class="areaResult"></p>
+         <div id="area">
+             <button class="yes" style="top:20px;left:20px">ДА</button>
+             <button class="no" style="top:20px;left:70px">НЕТ</button>
+         </div>
+    </div>
+
+{% endblock %}

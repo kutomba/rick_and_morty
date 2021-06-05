@@ -1,0 +1,645 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QIFqPfE.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4SYFqPfE.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4ToFqPfE.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4QoFqPfE.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4Q4FqPfE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v30/1Ptsg8LJRfWJmhDAuUs4TYFq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* CaesarDressingCyrillic */
+@font-face {
+  font-family: 'CaesarDressingCyrillic';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/CaesarDressingCyrillic.otf) format('otf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+p {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000, 0px 0px 2px #000;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    flex-flow: column;
+	width: 1180px;
+	margin: 0 auto;
+	padding: 75px 0;
+}
+
+
+.header {
+	background-image: url(../img/header.jpg);
+	background-size: 100%;
+	background-position: 0 315px;
+	min-height: 140px;
+	width: 100%;
+	background-color: #f2dc6f;
+	box-shadow: 1px 1px 8px 1px #000;
+}
+.header.header-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 30px;
+}
+.main {
+	/* overflow: hidden; */
+	width: 100%;
+	margin-top: 10px;
+	/* background-color: #000; */
+}
+
+.footer {
+	padding: 10px;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	background-color: #f2dc6f;
+	box-shadow: 1px 1px 8px 1px #000;
+}
+
+.main > .left, .main > .right {
+	float: left;
+}
+.main > .left {
+	width: calc(25% - 5px);
+}
+.main > .right {
+	width: calc(75% - 5px);
+	margin-left: 10px;
+}
+.main > .left > .side-box, .main > .right > .side-box {
+	background-color: #f2dc6f;
+	box-shadow: 1px 1px 8px 1px #000;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.main > .left > .side-box > img, .main > .right > .side-box > img {
+	width: 100%;
+}
+.right > .side-box {
+	background-image: url(../img/Rick-And-Morty-PNG-Clipart.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 150px;
+}
+
+.right p {
+	text-indent: 25px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #00ff01;
+}
+/* a:visited { */
+	/* color: #00f8fd; */
+/* } */
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.nav li:not(:last-child) {
+	margin-bottom: 5px;
+}
+ul.nav li a {
+	box-sizing: border-box;
+	display: block;
+	background-color: #ff0000;
+	padding: 10px;
+	text-shadow: 1px 1px 1px #000, 0px 0px 2px #000;
+}
+ul.nav li.active a {
+    background-color: #f3b442;
+    font-weight: bold;
+    color: #f8e42b;
+}
+ul.nav li a:hover {
+	font-weight: bold;
+	background-color: #179700;
+}
+
+@media (max-width: 1200px) {
+	.wrap {
+		width: 900px;
+	}
+	.header {
+		background-position: 0 248px;
+	}
+}
+@media (max-width: 900px) {
+	.wrap {
+		width: calc(100% - 20px);
+		margin: 0 auto;
+	}
+	.main > .left, .main > .right {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.main > .right {
+		margin-top: 10px;
+	}
+	.header {
+		background-size: cover;
+		background-position: 0 78%;
+		min-height: 90px;
+	}
+}
+
+.icons-box {
+	display: flex;
+	width: 212px;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0 auto;
+}
+.icons-box .icon {
+	background-image: url(https://cursor.style/collection/images/rick_and_morty.png);
+	background-size: 188px;
+	/* background-color: #000; */
+    display: flex;
+    width: 46px;
+    height: 46px;
+	margin-right: 5px;
+	border-radius: 5px;
+	border: 2px solid transparent;
+}
+.icons-box .icon:hover {
+	background-color: #0000004a;
+	border: 2px solid #00000052;
+}
+.icons-box .icon:last-child {
+	margin-right: 0;
+}
+.icons-box .icon.blaster {
+	background-position: 0px 0px;
+}
+.icons-box .icon.rick {
+	background-position: -48px -2px;
+}
+.icons-box .icon.morty {
+	background-position: 45px 0px;
+}
+.icons-box .icon.megaphone {
+	background-position: 143px 46px;
+}
+
+.cards-box {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.cards-box .card {
+	position: relative;
+	width: calc(25% - 7.5px);
+	height: 0;
+	padding-bottom: 34%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.cards-box .card:nth-child(4n) {
+	margin-right: 0;
+}
+.cards-box .card .phantom {
+	background-image: url(../img/ramka2.png);
+	background-size: 100%;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	position: absolute;
+    width: 100%;
+    height: 100%;
+	display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+	align-items: center;
+}
+.cards-box .card .avatar {
+	position: absolute;
+	background-image: url(../img/morty.jpg);
+	height: 59%;
+	width: 82%;
+	background-size: 100%;
+	z-index: 0;
+	top: 7%;
+	left: 9%;
+	border-radius: 29% 29% 0 0;
+}
+.cards-box .card .phantom .name {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-bottom: 14%;
+	text-shadow: 1px 1px #000;
+}
+.cards-box .card .phantom .icons-bar {
+	display: flex;
+	flex-flow: row;
+	width: 50%;
+	justify-content: space-between;
+	padding-bottom: 22px;
+}
+
+.cards-box .card .phantom .icons-bar i {
+	display: flex;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
+.cards-box .card .phantom .icons-bar i.red {
+	background-color:#bd0000;
+}
+.cards-box .card .phantom .icons-bar i.black {
+	background-color:#000000;
+}
+.card-box {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card-box > .left {
+	display: inherit;
+	width: calc(50% - 5px);
+}
+.card-box > .right {
+	display: inherit;
+	flex-flow: column;
+	width: calc(50% - 5px);
+}
+.card-box > .left > .image {
+	width: 100%;
+	padding-bottom: 100%;
+	background-size: cover;
+	background-position: 50%;
+}
+.card-box > .right > h1 {
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+ul.header-menu {
+	display: flex;
+	padding: 8px;
+	flex-flow: row;
+	list-style: none;
+}
+ul.header-menu li {
+	margin-right: 10px;
+}
+ul.header-menu li a {
+	background-color: #e59536;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+}
+ul.header-menu li a:hover {
+	background-color: #ff8e00;
+	color: #fff;
+}
+
+/* Специальные кнопки */
+button.btn-jam {
+	padding: 10px;
+	background-color: #e59536;
+	border: 2px solid #ff0000;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.3em;
+	transition: 0.2s background-color, 0.2s color;
+	cursor: pointer;
+}
+button.btn-jam:hover {
+	color: #000;
+	background-color: #ffd12b;
+}
+
+#scrollTop {
+	position: fixed;
+	display: none;
+	width: 64px;
+	height: 64px;
+	background-color: #000;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.area-box {
+	padding: 10px;
+	border: 2px solid #000;
+}
+.area-box h3 {
+	text-indent: 0;
+	text-align: center;
+	font-size: 1.6em;
+}
+.area-box .areaResult {
+	margin-top: 10px;
+	text-align: center;
+	text-indent: 0;
+}
+.area-box #area {
+	width: 100%;
+	height: 300px;
+	margin: 40px 0;
+	position: relative;
+}
+.area-box #area button {
+	position: absolute;
+	top:20px;
+	left:20px;
+	padding: 10px
+}
